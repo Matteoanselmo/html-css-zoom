@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+}
+
+header{
+    height: 10vh;
+    background-color: brown;
+}
+
+main{
+    height: 80vh;
+    background-color: cornflowerblue;
+    overflow-y: scroll;
+}
+
+footer{
+    height: 10vh;
+    background-color: brown;
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: darkgoldenrod;
+    border: 1px solid black;
+}
