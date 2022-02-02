@@ -12,6 +12,10 @@ body{
     display: flex;
 }
 
+.column{
+    flex-direction: column;
+}
+
 header{
     height: 10vh;
     background-color: black;
@@ -26,8 +30,9 @@ main{
 
 footer{
     height: 10vh;
-    background-color: brown;
-    
+    background-color: rgb(34, 34, 34);
+    justify-content: space-between;
+    padding-left: 1rem;
 }
 
 /* SVILUPPO HEADER */
@@ -69,4 +74,36 @@ section{
     align-self: flex-end;
     padding: .5rem;
     border-radius: 6px;
+}
+
+/* SVILUPPO FOOTER */
+
+.zoom-option{
+    /* width: 200px;
+    background-color: rosybrown; */
+    color: white;
+    
+    align-items: center;
+}
+
+.column i{
+    align-self: center;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.zoom-option > div{
+    margin-right: 1rem;
+}
+
+.fa-share-square{
+    color: rgb(75, 200, 0);
+}
+
+#end-meeting{
+    width: 7%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(74, 74, 74);
+    color: red;
 }
