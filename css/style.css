@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 .flex-container{
     display: flex;
 }
@@ -11,6 +15,7 @@
 header{
     height: 10vh;
     background-color: black;
+    flex-direction: row-reverse;
 }
 
 main{
@@ -22,7 +27,25 @@ main{
 footer{
     height: 10vh;
     background-color: brown;
+    
 }
+
+/* SVILUPPO HEADER */
+
+.users-view{
+    color: white;
+    background-color: grey;
+    align-self: flex-start;
+    margin: .4rem;
+    padding: 0.3rem;
+    border-radius: 6px;
+}
+/* SVILUPPO MAIN */
+
+/* NON MI PIACE LA SCROLLBAR :) */
+::-webkit-scrollbar {
+    display: none;
+    }
 
 section{
     width: 80%;
@@ -37,8 +60,6 @@ section{
     height: 200px;
     background-image: url(../img/sfondo.jpg);
     background-size: cover;
-    background-color: darkgoldenrod;
-    border: 1px solid black;
     margin-bottom: .2rem;
 }
 
