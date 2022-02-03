@@ -55,16 +55,16 @@ footer{
     }
 
 section{
-    width: 80%;
-    margin: 0 auto;
-    justify-items: center;
+    /* width: 80%;
+    margin: 0 auto;  */
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .box{
     width: 250px;
-    height: 200px;
+    height: 155px;
     background-image: url(../img/sfondo.jpg);
     background-size: cover;
     margin: .1rem;
