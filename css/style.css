@@ -17,22 +17,24 @@ body{
 }
 
 header{
-    height: 10vh;
+    height: 6vh;
     background-color: black;
     flex-direction: row-reverse;
 }
 
 main{
-    height: 80vh;
+    height: 86vh;
     background-color: black;
     overflow-y: scroll;
 }
 
 footer{
-    height: 10vh;
+    height: 8vh;
     background-color: rgb(34, 34, 34);
     justify-content: space-between;
     padding-left: 1rem;
+    /* min-width: 865px;
+    min-height: 78px; */
 }
 
 /* SVILUPPO HEADER */
@@ -55,7 +57,7 @@ footer{
 section{
     width: 80%;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-items: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -65,7 +67,7 @@ section{
     height: 200px;
     background-image: url(../img/sfondo.jpg);
     background-size: cover;
-    margin-bottom: .2rem;
+    margin: .1rem;
 }
 
 .pinco-pallo{
@@ -88,12 +90,13 @@ section{
 
 .column i{
     align-self: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
 .zoom-option > div{
     margin-right: 1rem;
+    flex-shrink: 0;
 }
 
 .fa-share-square{
